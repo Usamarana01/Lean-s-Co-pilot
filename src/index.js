@@ -4,7 +4,6 @@ import './index.css';
 import Chatbot from './chatbot';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 ReactDOM.render(
   <React.StrictMode>
     <Chatbot />
