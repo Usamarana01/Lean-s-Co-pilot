@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCommentDots, faPlus } from '@fortawesome/free-solid-svg-icons';
 import './chatbot.css';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
